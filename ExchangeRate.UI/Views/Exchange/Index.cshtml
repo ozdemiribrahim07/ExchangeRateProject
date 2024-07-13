@@ -1,0 +1,26 @@
+﻿@model KurResponse
+
+<h1>Kurlar</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>Code</th>
+            <th>Currency Name</th>
+            <th>Forex Buying</th>
+            <th>Forex Selling</th>
+          
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var currency in Model.Currencies)
+        {
+            <tr>
+                <td>@currency.Code</td>
+                <td>@currency.CurrencyName</td>
+                <td>@currency.ForexBuying</td>
+                <td>@currency.ForexSelling</td>
+            </tr>
+        }
+    </tbody>
+</table>

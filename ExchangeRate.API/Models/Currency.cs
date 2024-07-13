@@ -33,7 +33,7 @@ namespace ExchangeRate.API.Models
             {
                 return result;
             }
-            return 0; // veya uygun bir varsayılan değer
+            return 0; 
         }
     }
 }

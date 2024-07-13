@@ -5,8 +5,6 @@ VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExchangeRate.API", "ExchangeRate.API\ExchangeRate.API.csproj", "{888B229D-D9AD-4D60-A671-C93D8BE7B5A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExchangeRate.UI", "ExchangeRate.UI\ExchangeRate.UI.csproj", "{96588957-77CC-4079-866D-7344F1AA3A8F}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,10 +15,6 @@ Global
 		{888B229D-D9AD-4D60-A671-C93D8BE7B5A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{888B229D-D9AD-4D60-A671-C93D8BE7B5A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{888B229D-D9AD-4D60-A671-C93D8BE7B5A6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{96588957-77CC-4079-866D-7344F1AA3A8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{96588957-77CC-4079-866D-7344F1AA3A8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{96588957-77CC-4079-866D-7344F1AA3A8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{96588957-77CC-4079-866D-7344F1AA3A8F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
